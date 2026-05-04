@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+rag/
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Vector Database / Embeddings
+doc_vectorstore/
+chroma/
+faiss_index/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+# PDF / Uploaded Documents
+*.pdf
+
+# Cache
+.cache/
+
+# Testing
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+*.pid
+
+# Secrets / API Keys
+secrets.toml
+
+# Misc
+.idea/
